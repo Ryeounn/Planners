@@ -8,6 +8,7 @@ import SideBar from "./admin/layout/sidebar";
 import { Toaster } from "@/components/ui/sonner";
 import { useEffect, useState } from "react";
 import { usePathname } from 'next/navigation';
+import Script from 'next/script';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -42,8 +43,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <script src="https://accounts.google.com/gsi/client" async defer></script>
-        <script src="https://www.paypal.com/sdk/js?client-id=AT2NUqw1ncYnTHFmrUYZImtzajR-BX0oexSz7wzjeBDK0v5Ek9F4C_ctjylLCE-Vp35cX36zMlBpEBRL"></script>
+        <Script src="https://accounts.google.com/gsi/client" strategy="lazyOnload" />
+        <Script src="https://www.paypal.com/sdk/js?client-id=AT2NUqw1ncYnTHFmrUYZImtzajR-BX0oexSz7wzjeBDK0v5Ek9F4C_ctjylLCE-Vp35cX36zMlBpEBRL" strategy="lazyOnload" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="h-full">

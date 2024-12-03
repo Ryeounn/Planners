@@ -620,7 +620,7 @@ const Check = () => {
                                                 <GoogleLoginButton />
                                             </div>
                                             <div className="mt-4">
-                                                <p>Don't have an account? <a className="text-[#4B70F5]" href="">Sign up</a></p>
+                                                <p>Don&apos;t have an account? <a className="text-[#4B70F5]" href="">Sign up</a></p>
                                             </div>
                                         </div>
                                     </div>

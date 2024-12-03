@@ -71,7 +71,7 @@ const MostAttractive = () => {
                             data-aos="fade-up"
                             data-aos-delay="500"
                             data-aos-duration="1200"
-                            className="absolute w-[400px] right-[70px] text-right">Jakarta, Indonesia's bustling capital, is known for its blend of modernity and tradition. Visitors can explore vibrant markets, diverse cuisines, and historical sites like the National Monument.</p>
+                            className="absolute w-[400px] right-[70px] text-right">Jakarta, Indonesias bustling capital, is known for its blend of modernity and tradition. Visitors can explore vibrant markets, diverse cuisines, and historical sites like the National Monument.</p>
                         </div>
 
                         <img src="/assets/images/attractive/indonesiaRight.jpg" alt=""
@@ -94,7 +94,7 @@ const MostAttractive = () => {
                             data-aos="fade-up"
                             data-aos-delay="500"
                             data-aos-duration="1200"
-                            className="absolute w-[400px] left-[70px]">Ubud is Bali’s cultural center, known for rice terraces, art, yoga, and a peaceful atmosphere perfect for relaxation.</p>
+                            className="absolute w-[400px] left-[70px]">Ubud is Balis cultural center, known for rice terraces, art, yoga, and a peaceful atmosphere perfect for relaxation.</p>
                         </div>
 
                         <img src="/assets/images/attractive/indonesiaLeft2.jpg" alt=""

@@ -6,7 +6,7 @@ import AOS from 'aos';
 
 const ViewPoint = () => {
     const [img, setImg] = useState<number>(0);
-    const [imgVisible, setImgVisible] = useState<Boolean>(true);
+    const [imgVisible, setImgVisible] = useState<boolean>(true);
     const [places, setPlaces] = useState<any>([]);
     const [expandedIndex, setExpandedIndex] = useState<any>(null);
 

@@ -34,7 +34,7 @@ const Footer = () => {
                             <div>
                                 Get ready for your next adventure
                             </div>
-                            <Link href="/contact">
+                            <Link href="/">
                                 <div className="hover:underline text-left">Home</div>
                             </Link>
                             <div>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                         <div className="grid grid-cols-4 gap-4 mt-5">
                             <div></div>
-                            <Link href="/contact">
+                            <Link href="/destination">
                                 <div className="hover:underline text-left">Destination</div>
                             </Link>
                             <div>
@@ -58,7 +58,7 @@ const Footer = () => {
                         </div>
                         <div className="grid grid-cols-4 gap-4 mt-5">
                             <div></div>
-                            <Link href="/contact">
+                            <Link href="/travel">
                                 <div className="hover:underline text-left">Travel</div>
                             </Link>
                             <div>
